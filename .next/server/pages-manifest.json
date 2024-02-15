@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/inputs/inputs": "pages/inputs/inputs.js",
-  "/usestate/usestate": "pages/usestate/usestate.js"
+  "/useeffect/useeffect": "pages/useeffect/useeffect.js",
+  "/filtragem/filtragem": "pages/filtragem/filtragem.js"
 }

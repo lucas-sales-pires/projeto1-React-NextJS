@@ -22,10 +22,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/inputs/inputs": [
+    "/filtragem/filtragem": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/inputs/inputs.js"
+      "static/chunks/pages/filtragem/filtragem.js"
+    ],
+    "/useeffect/useeffect": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/useeffect/useeffect.js"
     ]
   },
   "ampFirstPages": []
