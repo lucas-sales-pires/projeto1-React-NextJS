@@ -1,8 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/inputs/inputs": "pages/inputs/inputs.js",
-  "/useeffect/useeffect": "pages/useeffect/useeffect.js",
-  "/filtragem/filtragem": "pages/filtragem/filtragem.js"
-}
+{"/_app":"pages/_app.js","/_document":"pages/_document.js","/api/hello":"pages/api/hello.js","/filtragem/Filtragem":"pages/filtragem/Filtragem.html","/":"pages/index.html","/inputs/Inputs":"pages/inputs/Inputs.html","/produtos/Produtos":"pages/produtos/Produtos.html","/teste/Teste":"pages/teste/Teste.html","/useeffect/Useeffect":"pages/useeffect/Useeffect.html","/usestate/Usestate":"pages/usestate/Usestate.html","/_error":"pages/_error.js","/404":"pages/404.html"}

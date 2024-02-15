@@ -6,21 +6,18 @@ let carros:any = "";
 export default function Filtragem() {
   const [categ, setCateg] = useState("");
   const [linhas, setLinhas] = useState<any[]>([]);
-  let listaPronta = false
 
     useEffect(()=>{
         fetch("http://127.0.0.1:1880/carros")
         .then(resposta => resposta.json())
         .then(res => {
             carros=res
-            listaPronta = true
         })
         
     },[])
 
 
   function criarLinhas(cat: any) {
-    if(listaPronta){
     setCateg(cat);
     let l: any[] = [];
     carros.forEach((c:any) => {
@@ -35,9 +32,7 @@ export default function Filtragem() {
       }
     });
     setLinhas(l)
-}else{
-    alert("Lista de carros não está pronta")
-}
+
 
   }
 

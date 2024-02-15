@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function operacao () {
+export default function Operacao () {
     const [numero,setNumero] = useState(0)
     return(
 

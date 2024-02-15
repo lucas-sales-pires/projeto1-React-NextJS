@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Displaystate from "@/components/DisplayState"
-export default function usestate() {
+export default function Usestate() {
     //Primeiro estado e próximo estado
     let [cont, setCont] = useState<number>(0)
 

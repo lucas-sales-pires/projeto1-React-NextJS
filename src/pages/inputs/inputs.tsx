@@ -4,7 +4,7 @@ import Globais from "@/components/Globais"
 
 const cursos = ["HTML","React","C++","Javascript","Arduino","CSS"]
 
-export default function inputs() {
+export default function Inputs() {
     const [nome, setNome] = useState<string>("")
     const [curso, setCurso] = useState<string>(cursos[0])
     
@@ -13,8 +13,8 @@ export default function inputs() {
     },[])
 
     function fcursos() {
-        return cursos.map((c:any)=>{
-            return <option value={c}>{c}</option>
+        return cursos.map((c:any,indice)=>{
+            return <option value={c} key={indice}>{c}</option>
         })
     }
 
